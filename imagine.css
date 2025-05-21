@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  color: maroon;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  color: maroon;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  color: maroon;
+  font-size: 12px;
+}
+.estrofe {
+  font-size: 12px;
+}
+
+.centro {
+  text-align: center;
+}
+
+.direita {
+  text-align: right;
+}
+
+.esquerda {
+  text-align: left;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+hr {
+  border: 1px solid maroon;
+}

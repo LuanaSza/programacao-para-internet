@@ -1,0 +1,38 @@
+ .topo{
+            display: flex;
+            background-color: black;
+            gap: 50px;
+            height: 70px;
+        }
+        .topo, p{
+            font-size: 20px;
+        }
+        .logo{
+            margin-left: 2%;
+            color: white;
+        }
+        .sobre{
+            color: white;
+            margin-left: 70%;
+        }
+        .produto{
+            color: white;
+        }
+        .contato{
+            color: white;
+        }
+        .mae{
+            background-color: white; /* ou remova se quiser sem cor */
+            padding: 40px 0;
+        }
+        .container{
+            max-width: 1000px;
+            width: 100%;
+            margin: 0 auto; /* Centraliza no meio */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .ftlobo, img{
+            width: 300px;
+        }

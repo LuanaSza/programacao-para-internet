@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: limegreen;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+h1, footer {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.top-images,
+.bottom-images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid limegreen;
+}

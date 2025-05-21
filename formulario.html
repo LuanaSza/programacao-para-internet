@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários Completos</title>
+</head>
+
+<body>
+    <h1>Formulários Diversos</h1>
+
+    <!-- FORMULÁRIO 1: CARTÃO DE CRÉDITO -->
+    <h2>1. Cartão de Crédito</h2>
+    <form>
+        Número do Cartão:<br>
+        <input type="text" name="numero_cartao"><br><br>
+
+        Bandeira:<br>
+        <input type="radio" name="bandeira" value="visa"> Visa<br>
+        <input type="radio" name="bandeira" value="mastercard"> MasterCard<br>
+        <input type="radio" name="bandeira" value="amex"> American Express<br><br>
+
+        Validade:<br>
+        <select name="validade">
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr>
+
+    <!-- FORMULÁRIO 2: PET SHOP -->
+    <h2>2. Informações do Aquário (Pet Shop)</h2>
+    <form>
+        <fieldset>
+            <legend>Tipo de Água</legend>
+            <input type="radio" name="ph" value="acido"> Ácida<br>
+            <input type="radio" name="ph" value="alcalino"> Alcalina
+        </fieldset><br>
+
+        Quantidade de Peixes:<br>
+        <input type="text" name="quantidade"><br><br>
+
+        Espécie:<br>
+        <select name="especie">
+            <option value="espada">Espada</option>
+            <option value="molinesia">Molinésia</option>
+            <option value="plati">Plati</option>
+        </select><br><br>
+
+        Acessórios:<br>
+        <input type="checkbox" name="acessorios" value="pedras"> Pedras<br>
+        <input type="checkbox" name="acessorios" value="plantas"> Plantas<br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr>
+
+    <!-- FORMULÁRIO 3: PRÉ-MATRÍCULA -->
+    <h2>3. Pré-Matrícula Escolar</h2>
+    <form>
+        Nome do Aluno:<br>
+        <input type="text" name="nome_aluno"><br><br>
+
+        Nome da Mãe:<br>
+        <input type="text" name="nome_mae"><br><br>
+
+        Nome do Pai:<br>
+        <input type="text" name="nome_pai"><br><br>
+
+        Telefone:<br>
+        <input type="text" name="telefone"><br><br>
+
+        E-mail:<br>
+        <input type="text" name="email"><br><br>
+
+        Data de Nascimento:<br>
+        <input type="text" size="2" name="dia"> /
+        <input type="text" size="2" name="mes"> /
+        <input type="text" size="4" name="ano"><br><br>
+
+        Série:<br>
+        <select name="serie">
+            <option value="pre_escolar">Pré-Escolar</option>
+            <option value="1ano">1º Ano</option>
+            <option value="2ano">2º Ano</option>
+        </select><br><br>
+
+        Turno:<br>
+        <input type="radio" name="turno" value="manha"> Manhã<br>
+        <input type="radio" name="turno" value="tarde"> Tarde<br><br>
+
+        Atividades Extracurriculares:<br>
+        <input type="checkbox" name="atividade" value="informatica"> Informática<br>
+        <input type="checkbox" name="atividade" value="musica"> Música<br>
+        <input type="checkbox" name="atividade" value="ballet"> Ballet<br><br>
+
+        <input type="submit" value="Enviar Formulário">
+        <input type="reset" value="Limpa Campos">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.topo {
+            background-color: #d8c5a2;
+            height: 35px;
+            text-align: right;
+        }
+        .rodape{
+             background-color: #d8c5a2;
+            text-align: left;
+        }
+        body{
+           background-image: url('fundo.jpeg');
+           background-size: cover;
+           background-position: center;
+           height: 100vh;
+           margin: 0;
+        }
+        p{
+            color: white;
+            font-size: 25px;
+            text-align: justify;
+            font-family: 'Times New Roman', serif;
+            text-indent: 40px;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+        }
